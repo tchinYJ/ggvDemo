@@ -21,6 +21,8 @@
 		9B00B50718FCF34B002FB194 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B00B4E918FCF34A002FB194 /* UIKit.framework */; };
 		9B00B50F18FCF34B002FB194 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9B00B50D18FCF34B002FB194 /* InfoPlist.strings */; };
 		9B00B51118FCF34B002FB194 /* ggvDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B00B51018FCF34B002FB194 /* ggvDemoTests.m */; };
+		9B00B52018FD0056002FB194 /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B00B51E18FD0056002FB194 /* cat.png */; };
+		9B00B52118FD0056002FB194 /* dolphin.png in Resources */ = {isa = PBXBuildFile; fileRef = 9B00B51F18FD0056002FB194 /* dolphin.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		9B00B50C18FCF34B002FB194 /* ggvDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ggvDemoTests-Info.plist"; sourceTree = "<group>"; };
 		9B00B50E18FCF34B002FB194 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9B00B51018FCF34B002FB194 /* ggvDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ggvDemoTests.m; sourceTree = "<group>"; };
+		9B00B51E18FD0056002FB194 /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		9B00B51F18FD0056002FB194 /* dolphin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dolphin.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +116,8 @@
 		9B00B4EB18FCF34A002FB194 /* ggvDemo */ = {
 			isa = PBXGroup;
 			children = (
+				9B00B51E18FD0056002FB194 /* cat.png */,
+				9B00B51F18FD0056002FB194 /* dolphin.png */,
 				9B00B4F418FCF34A002FB194 /* ggvAppDelegate.h */,
 				9B00B4F518FCF34A002FB194 /* ggvAppDelegate.m */,
 				9B00B4F718FCF34A002FB194 /* Main.storyboard */,
@@ -230,7 +236,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B00B4FE18FCF34B002FB194 /* Images.xcassets in Resources */,
+				9B00B52118FD0056002FB194 /* dolphin.png in Resources */,
 				9B00B4F018FCF34A002FB194 /* InfoPlist.strings in Resources */,
+				9B00B52018FD0056002FB194 /* cat.png in Resources */,
 				9B00B4F918FCF34A002FB194 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,6 +389,7 @@
 				GCC_PREFIX_HEADER = "ggvDemo/ggvDemo-Prefix.pch";
 				INFOPLIST_FILE = "ggvDemo/ggvDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -394,6 +403,7 @@
 				GCC_PREFIX_HEADER = "ggvDemo/ggvDemo-Prefix.pch";
 				INFOPLIST_FILE = "ggvDemo/ggvDemo-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
